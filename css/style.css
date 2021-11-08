@@ -1,0 +1,455 @@
+/*default normalize.css */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+img {
+  border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: "TT Norms Black";
+  src: url("../fonts/TTNormsPro-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "TT Norms Bold";
+  src: url("../fonts/TTNormsPro-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "TT Norms Regular";
+  src: url("../fonts/TTNormsPro-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "TT Norms Medium";
+  src: url("../fonts/TTNormsPro-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+* {
+  font-family: "TT Norms Regular";
+}
+
+body {
+  max-width: 900px;
+  padding: 30px 50px 106px 50px;
+  margin: 0 auto;
+  background: #fff;
+  color: #353535;
+}
+
+.section-search {
+  margin-bottom: 35px;
+}
+.section-search__title {
+  color: #8C8C8C;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.section-search__search {
+  display: flex;
+}
+.section-search__search input {
+  color: #353535;
+  width: 208px;
+  height: 30px;
+  border: 1px solid #E9E9E9;
+  box-sizing: border-box;
+  margin: auto 10px auto 12px;
+  outline: none;
+  padding-left: 12px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.16px;
+}
+.section-search__search .btn-search {
+  color: #fff;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "TT Norms Medium";
+  margin-left: 10px;
+  background: #353535;
+  padding: 8px 24px;
+}
+
+.section-info {
+  margin-bottom: 46px;
+}
+.section-info .section-inner {
+  display: flex;
+}
+.section-info-construct__title {
+  width: 350px;
+  display: flex;
+}
+.section-info-construct__title img {
+  width: 40px;
+  height: 40px;
+}
+.section-info-construct__title p {
+  font-family: "TT Norms Medium";
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin: 0px 70px 30px 20px;
+}
+.section-info-construct__period {
+  margin-left: 12px;
+}
+.section-info-construct__period select {
+  box-sizing: border-box;
+  width: 208px;
+  padding: 4px 12px;
+  border: 1px solid #E9E9E9;
+  background: #fff;
+  font-family: "TT Norms Regular";
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: url("../img/Vector.png") no-repeat right 10px center;
+  outline: 0;
+  margin-bottom: 19px;
+}
+.section-info-construct__options {
+  margin-bottom: 46px;
+}
+.section-info-construct__options-item {
+  margin: 0px 0px 10px 0px;
+}
+.section-info-construct__options-item .options__input {
+  display: none;
+}
+.section-info-construct__options-item .options__input:checked + .options__label::after {
+  transform: scale(1);
+}
+.section-info-construct__options-item .options__label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+}
+.section-info-construct__options-item .options__label::before {
+  content: "";
+  align-self: flex-start;
+  flex: 0 0 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 2px solid #C1C1C1;
+  margin: 0px 12px 0px 0px;
+}
+.section-info-construct__options-item .options__label::after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 10px;
+  height: 10px;
+  background-color: #4990E2;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: transform 0.3s ease 0s;
+}
+.section-info-construct__submit .btn-submit {
+  color: #fff;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background: #4990E2;
+  padding: 12px 40px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.section-info-wrapper {
+  font-family: "TT Norms Medium";
+  max-width: 514px;
+  height: 330px;
+  border-radius: 5px;
+  background: #F7F7F7;
+  padding: 0px 18px;
+}
+.section-info-wrapper .prefix {
+  color: #8C8C8C;
+}
+.section-info-wrapper .postfix {
+  color: #4990E2;
+}
+.section-info-wrapper p {
+  color: #353535;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.section-report .section-inner {
+  border: 1px dashed #939DA6;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  padding: 40px 40px;
+}
+.section-report-title {
+  font-family: "TT Norms Medium";
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 27px;
+}
+.section-report-colomns {
+  margin-bottom: 24px;
+  box-sizing: border-box;
+}
+.section-report-colomns ul {
+  padding: 0;
+  display: flex;
+}
+.section-report-colomns ul li {
+  font-size: 13px;
+  line-height: 15px;
+  color: #939DA6;
+  list-style-type: none;
+  margin-right: 25px;
+}
+.section-report-colomns ul .short {
+  width: 100px;
+}
+.section-report-colomns ul .long {
+  width: 220px;
+}
+.section-report hr {
+  width: 820px;
+  border: 1px solid #E9E9E9;
+  margin-bottom: 20px;
+}
+.section-report-rows {
+  display: flex;
+}
+.section-report-rows p {
+  margin: 0;
+}
+.section-report-rows-date {
+  width: 100px;
+}
+.section-report-rows-date__time {
+  margin-left: 5px;
+}
+.section-report-rows-tests {
+  font-size: 13px;
+  line-height: 15px;
+  margin-left: 20px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+.section-report-rows-slope {
+  width: 100px;
+  padding-left: 30px;
+  display: flex;
+}
+.section-report-rows-slope img {
+  width: 16px;
+  height: 16px;
+  margin-left: 20px;
+}
+.section-report-rows-offset {
+  width: 100px;
+  padding-left: 15px;
+  display: flex;
+}
+.section-report-rows-offset img {
+  width: 16px;
+  height: 16px;
+  margin-left: 20px;
+}
+.section-report-rows-user {
+  font-size: 12px;
+  line-height: 14px;
+  margin-left: 23px;
+}
